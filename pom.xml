@@ -34,7 +34,8 @@
 	</modules>
 
 	<properties>
-		<openMRSVersion>1.10.2</openMRSVersion>
+		<!--<openMRSVersion>1.10.2</openMRSVersion>-->
+		<openMRSVersion>2.0.5</openMRSVersion>
 		<idgenVersion>4.3</idgenVersion>
 		<eventVersion>2.3</eventVersion>
 		<namephoneticsVersion>1.4</namephoneticsVersion>
@@ -141,6 +142,15 @@
                 <version>2.2</version>
 				<scope>provided</scope>
             </dependency>
+
+			<!--Nipun - work starts -->
+			<dependency>
+				<groupId>org.openmrs.module</groupId>
+				<artifactId>legacyui-omod</artifactId>
+				<version>1.2.3</version>
+				<scope>provided</scope>
+			</dependency>
+			<!--Nipun - work ends -->
 			
 		</dependencies>
 	</dependencyManagement>

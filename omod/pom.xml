@@ -47,6 +47,15 @@
 			<artifactId>event-api-tests</artifactId>
 			<type>test-jar</type>
 		</dependency>
+
+		<!--Nipun - work starts -->
+		<dependency>
+			<groupId>org.openmrs.module</groupId>
+			<artifactId>legacyui-omod</artifactId>
+			<version>1.2.3</version>
+			<scope>provided</scope>
+		</dependency>
+		<!--Nipun - work ends -->
 		<!-- End OpenMRS modules -->
 
 		<!-- Begin OpenMRS core -->
