@@ -136,21 +136,19 @@
 				<scope>test</scope>
 			</dependency>
 
-            <dependency>
-                <groupId>joda-time</groupId>
-                <artifactId>joda-time</artifactId>
-                <version>2.2</version>
+			<dependency>
+				<groupId>joda-time</groupId>
+				<artifactId>joda-time</artifactId>
+				<version>2.2</version>
 				<scope>provided</scope>
-            </dependency>
+			</dependency>
 
-			<!--Nipun - work starts -->
 			<dependency>
 				<groupId>org.openmrs.module</groupId>
 				<artifactId>legacyui-omod</artifactId>
 				<version>1.2.3</version>
 				<scope>provided</scope>
 			</dependency>
-			<!--Nipun - work ends -->
 			
 		</dependencies>
 	</dependencyManagement>
